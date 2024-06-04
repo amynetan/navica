@@ -83,7 +83,7 @@
   --radius-pill: 500px;
   --radius-circle: 50%;
   --radius-3: 3px;
-  --radius-5: 5px;
+  --radius-5: 50px;
   --radius-10: 10px;
 
   /**
@@ -891,7 +891,7 @@ body {
 .newsletter-form { margin-block: 20px 35px; }
 
 .newsletter-form .input-field {
-  background-color: var(--white);
+  background-color: rgb(238, 246, 255);
   padding: 12px;
   border-radius: var(--radius-5);
   margin-block-end: 20px;
@@ -1022,9 +1022,9 @@ body {
   .footer-list:last-child { grid-column: 1 / 3; }
 
   .newsletter-form {
-    display: flex;
+    display: grid;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
   }
 
   .newsletter-form .input-field { margin-block-end: 0; }
