@@ -574,7 +574,7 @@ body {
   #COURSE
 \*-----------------------------------*/
 
-.course { background-color: var(--isabelline); }
+.course { background-image: linear-gradient(#e0e0e0,#a3d2fd,#61b3ff); }
 
 .course-card {
   position: relative;
